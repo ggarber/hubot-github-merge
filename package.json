@@ -1,0 +1,41 @@
+{
+  "name": "hubot-github-merge",
+  "description": "Merge branches on GitHub with Hubot",
+  "version": "1.0.0",
+  "author": "Ellis Berner <eberner@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "github",
+    "merge",
+    "githubot"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maletor/hubot-github-merge.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/maletor/hubot-github-merge/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "githubot": "~1.0"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
