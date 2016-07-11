@@ -30,7 +30,7 @@ module.exports = (robot) ->
     org      = process.env.HUBOT_GITHUG_ORG
     url = "#{base_url}/repos/#{org}/#{app}/merges"
 
-    msg.send "Trying ${url}"
+    msg.send "Trying #{url}"
     github.handleErrors (response) ->
       msg.send "Fuck! #{response.error}!"
 

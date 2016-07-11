@@ -1,7 +1,7 @@
 {
   "name": "hubot-github-merge-generic",
   "description": "Merge branches on GitHub with Hubot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Gustavo Garcia <gustavogb@gmail.com>",
   "license": "MIT",
 
