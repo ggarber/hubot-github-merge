@@ -1,8 +1,8 @@
 {
-  "name": "hubot-github-merge",
+  "name": "hubot-github-merge-generic",
   "description": "Merge branches on GitHub with Hubot",
   "version": "1.0.0",
-  "author": "Ellis Berner <eberner@gmail.com>",
+  "author": "Gustavo Garcia <gustavogb@gmail.com>",
   "license": "MIT",
 
   "keywords": [
@@ -15,11 +15,10 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/maletor/hubot-github-merge.git"
+    "url": "git://github.com/ggarber/hubot-github-merge.git"
   },
 
   "bugs": {
-    "url": "https://github.com/maletor/hubot-github-merge/issues"
   },
 
   "dependencies": {
