@@ -7,6 +7,7 @@
 # Configuration:
 #   HUBOT_GITHUB_TOKEN
 #   HUBOT_GITHUB_API
+#   HUBOT_GITHUB_ORG
 #
 # Commands:
 #   hubot merge doximity/<head> into <base> - merges the selected branches or SHA commits
@@ -26,7 +27,8 @@ module.exports = (robot) ->
     head     = msg.match[3] || 'master'
     base     = msg.match[4]
     base_url = process.env.HUBOT_GITHUB_API || 'https://api.github.com'
-    url = "#{base_url}/repos/doximity/#{app}/merges"
+    org      = process.env.HUBOT_GITHUG_ORG
+    url = "#{base_url}/repos/#{org}/#{app}/merges"
 
     github.handleErrors (response) ->
       msg.send "Fuck! #{response.error}!"
