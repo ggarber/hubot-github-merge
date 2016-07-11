@@ -27,7 +27,7 @@ module.exports = (robot) ->
     head     = msg.match[3] || 'master'
     base     = msg.match[4]
     base_url = process.env.HUBOT_GITHUB_API || 'https://api.github.com'
-    org      = process.env.HUBOT_GITHUG_ORG
+    org      = process.env.HUBOT_GITHUB_ORG
     url = "#{base_url}/repos/#{org}/#{app}/merges"
 
     msg.send "Trying #{url}"
